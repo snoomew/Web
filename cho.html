@@ -20,7 +20,19 @@
       integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
       crossorigin="anonymous"
     ></script>
-    <style></style>
+    <!-- Favicon block -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#ffffff" />
+    <style>
+      .card:hover {
+        background-color: pink;
+      }
+    </style>
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -53,42 +65,51 @@
       </div>
     </nav>
     <div class="container my-5">
-      <div class="row row-cols-1 row-cols-2 row-cols-lg-3 g-5">
-        <div class="col"></div>
-        <div class="card">
-          <img src="..." class="card-img-top" alt="не получтлось загрузитб" />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card’s content.
-            </p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <!-- Карточка 1 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="ogo.jpeg" class="card-img-top" alt="Изображение 1" />
+            <div class="card-body">
+              <h5 class="card-title">класс</h5>
+              <p class="card-text">десерт со вкусом жижи личи.</p>
+              <a
+                href="file:///Users/snoomew/Desktop/IMAGE%202025-12-23%2023:55:15.jpg"
+                target="_blank"
+                class="btn btn-primary"
+                >что там</a
+              >
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col"></div>
-      <div class="card">
-        <img src="..." class="card-img-top" alt="не получтлось загрузитб" />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card’s content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+
+        <!-- Карточка 2 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="ogo.jpeg" class="card-img-top" alt="Изображение 2" />
+            <div class="card-body">
+              <h5 class="card-title">опана, повторка</h5>
+              <p class="card-text">ну сорян</p>
+              <a href="#" class="btn btn-primary">тут ничего нет</a>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="col"></div>
-      <div class="card">
-        <img src="..." class="card-img-top" alt="не получтлось загрузитб" />
-        <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">
-            Some quick example text to build on the card title and make up the
-            bulk of the card’s content.
-          </p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+
+        <!-- Карточка 3 -->
+        <div class="col">
+          <div class="card h-100">
+            <img src="opana.jpeg" class="card-img-top" alt="Изображение 3" />
+            <div class="card-body">
+              <h5 class="card-title">пелменб</h5>
+              <p class="card-text">Когда по кайфу - тогда по кайфу.</p>
+              <a
+                href="https://yandex.ru/video/preview/355141424982405152"
+                target="_blank"
+                class="btn btn-primary"
+                >тут тоже</a
+              >
+            </div>
+          </div>
         </div>
       </div>
     </div>
